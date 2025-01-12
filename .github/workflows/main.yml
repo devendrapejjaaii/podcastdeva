@@ -19,7 +19,7 @@ jobs:
       - name: Push Repo 
         run: |
           git config user.name devendrapejjai
-          git configu user.email devendrapejjaaii@gmail.com
+          git config user.email devendrapejjaaii@gmail.com
           git add .
           git commit -m "Modfied feed"
           git push
